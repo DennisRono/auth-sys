@@ -4,6 +4,9 @@
 /node_modules
 /.pnp
 .pnp.js
+cron-ping.js
+cron-delete.js
+cron-logs.js
 
 # testing
 /coverage
