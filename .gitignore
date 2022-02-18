@@ -7,6 +7,7 @@
 cron-ping.js
 cron-delete.js
 cron-logs.js
+.env
 
 # testing
 /coverage
