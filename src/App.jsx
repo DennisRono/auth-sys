@@ -30,8 +30,8 @@ const App = () => {
                   <div className="authRegForm">
                     <div className="authControls">
                       <div className="thecontrols">
-                        <button className="showregform" onClick={()=>{showRegister()}}>Register</button>
-                        <button className="showlogform" onClick={()=>{showLogin()}}>Login</button>
+                        <button className="showregform" onClick={()=>{setActivity('reg')}}>Register</button>
+                        <button className="showlogform" onClick={()=>{setActivity('log')}}>Login</button>
                       </div>
                     </div>
                     <div className="register">
