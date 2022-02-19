@@ -18,7 +18,7 @@ body {
           transform: translate(-50%, -50%);
   width: 60%;
   min-height: 500px;
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.35);
   border-radius: 5px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -61,17 +61,6 @@ body {
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm {
   width: 50%;
   padding: 20px;
-}
-
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm h1 {
-  margin: 0;
-  color: #3f3f3f;
-}
-
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm p {
-  margin: 0;
-  color: #3f3f3f;
-  margin-bottom: 10px;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .form .submit-btn {
@@ -132,11 +121,12 @@ body {
   width: 100%;
   outline: none;
   border: none;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid white;
+  color: #fff;
   padding: 7px 10px;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  background-color: #fff;
+  background-color: transparent;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
@@ -154,7 +144,7 @@ body {
   -webkit-transition: 0.2s ease all;
   transition: 0.2s ease all;
   opacity: .5;
-  color: #5f5f5f;
+  color: white;
 }
 
 .user-input-wrp input:focus ~ .floating-label,
