@@ -84,10 +84,10 @@ margin-top: 5px;
 .user-input-wrp .inputText{
 width: 100%;
 outline: none;
-border: 1px solid rgb(211, 211, 211);
+border: none;
+border-bottom: 1px solid rgb(211, 211, 211);
 padding: 7px 10px;
 box-shadow: none !important;
-border-radius: 5px;
 background-color: #fff;
 }
 .user-input-wrp .inputText:focus,

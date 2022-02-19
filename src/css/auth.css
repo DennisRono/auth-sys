@@ -93,11 +93,11 @@ body {
 .user-input-wrp .inputText {
   width: 100%;
   outline: none;
-  border: 1px solid lightgray;
+  border: none;
+  border-bottom: 1px solid lightgray;
   padding: 7px 10px;
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
-  border-radius: 5px;
   background-color: #fff;
 }
 
