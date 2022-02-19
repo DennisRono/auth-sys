@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-//import GoogleLogin from 'react-google-login'
+import GoogleLogin from 'react-google-login'
 import './css/auth.css'
 
 export class App extends Component {
@@ -8,13 +8,7 @@ export class App extends Component {
     console.log(response);
     console.log(response.profileObj);
   }
-  // <GoogleLogin
-  //         clientId="19488264174-ph00unj3grek6shl3sq5euc9ru0fq2l0.apps.googleusercontent.com"
-  //         buttonText="Login with Google"
-  //         onSuccess={this.responseGoogle}
-  //         onFailure={this.responseGoogle}
-  //         cookiePolicy={'single_host_origin'}
-  //       />
+
   render() {
     return (
       <div>
@@ -37,18 +31,8 @@ export class App extends Component {
                           </div>
                           <div className="user-input-wrp">
                               <br/>
-                              <input type="text" className="inputText" name="regno"   required/>
-                              <span className="floating-label">Registration number</span>
-                          </div>
-                          <div className="user-input-wrp">
-                              <br/>
-                              <input type="text" autoComplete="off" className="inputText" name="course"   required/>
-                              <span className="floating-label">Course</span>
-                          </div>
-                          <div className="user-input-wrp">
-                              <br/>
-                              <input id="id-input" type="text" className="inputText" name="idno"   required/>
-                              <span className="floating-label">ID number</span>
+                              <input id="id-input" type="text" className="inputText" name="phoneno"   required/>
+                              <span className="floating-label">Phone number (optional)</span>
                           </div>
                           <span id="id-err"></span>
                           <div className="user-input-wrp">
@@ -68,6 +52,13 @@ export class App extends Component {
                           </div><br/>
                           <input type="submit" className="submit-btn" value="Register" name="submit"/>
                       </form>
+                      <GoogleLogin
+                        clientId="19488264174-ph00unj3grek6shl3sq5euc9ru0fq2l0.apps.googleusercontent.com"
+                        buttonText="Login with Google"
+                        onSuccess={this.responseGoogle}
+                        onFailure={this.responseGoogle}
+                        cookiePolicy={'single_host_origin'}
+                      />
                     </div>
                     <div className="authRegImage"></div>
                   </div>
