@@ -11,9 +11,9 @@ const App = () => {
 
   const showLogin = () => {
     let regform = document.querySelector('.register')
-    regform.style.display="none";
     let logform = document.querySelector('.login')
-    logform.style.display="unset";
+    regform.classList.add('hideregform');
+    logform.classList.add('hideregform');
   }
   const showRegister = () => {
     let logform = document.querySelector('.login')
