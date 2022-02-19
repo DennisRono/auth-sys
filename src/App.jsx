@@ -1,9 +1,9 @@
-import React from 'react'
+import React, { useState } from 'react'
 import GoogleLogin from 'react-google-login'
 import './css/auth.css'
 
 const App = () => {
-
+  const [login, setLogin] = useState('reg');
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);

@@ -102,7 +102,6 @@ body{
                                 }
                             }
                             .login{
-                                display: none;
                                 transition: 0.3s;
                             }
                         }
@@ -162,4 +161,10 @@ body{
     border-left: 5px solid red;
     font-size: 14px;
     width: 88%;
+}
+.hideregform{
+    display: none;
+}
+.hidelogform{
+    display: none;
 }
