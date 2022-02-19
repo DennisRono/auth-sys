@@ -35,7 +35,7 @@ body{
                             font-size: 30px;
                             color: #fff;
                             padding: 10px;
-                            border-bottom: 5px solid cyan;
+                            border-bottom: 3px solid cyan;
                         }
                         .showlogform{
                             width: 50%;
@@ -128,7 +128,7 @@ body{
 }
 .user-input-wrp .inputText:focus,
 .user-input-wrp .inputText:not(:focus):valid{
-    background-color: rgb(255, 219, 166);
+    background-color: transparent;
 }
 .user-input-wrp .floating-label {
     position: absolute;

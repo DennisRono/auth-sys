@@ -41,7 +41,7 @@ body {
   font-size: 30px;
   color: #fff;
   padding: 10px;
-  border-bottom: 5px solid cyan;
+  border-bottom: 3px solid cyan;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showlogform {
@@ -141,7 +141,7 @@ body {
 
 .user-input-wrp .inputText:focus,
 .user-input-wrp .inputText:not(:focus):valid {
-  background-color: #ffdba6;
+  background-color: transparent;
 }
 
 .user-input-wrp .floating-label {
