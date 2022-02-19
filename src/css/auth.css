@@ -39,6 +39,8 @@ body {
   border: none;
   outline: none;
   font-size: 30px;
+  color: #fff;
+  padding: 10px;
   border-bottom: 5px solid cyan;
 }
 
@@ -47,6 +49,8 @@ body {
   background-color: transparent;
   border: none;
   outline: none;
+  color: #fff;
+  padding: 10px;
   font-size: 30px;
 }
 
