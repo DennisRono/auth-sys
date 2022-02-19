@@ -57,46 +57,48 @@ body{
                         .authRegForm{
                             width: 50%;
                             padding: 20px;
-                            .reg-form{
-                                .submit-btn{
+                            .register{
+                                .reg-form{
+                                    .submit-btn{
+                                        display: block;
+                                        outline: none;
+                                        background: linear-gradient(to bottom right,#14a9ff,#0088f0)!important;
+                                        width: 97%;
+                                        cursor: pointer;
+                                        border: none;
+                                        padding: 10px 20px;
+                                        margin-top: 10px;					
+                                        color: #fff;
+                                        border-radius: 5px;
+                                    }
+                                }
+                                .google-login{
                                     display: block;
                                     outline: none;
-                                    background: linear-gradient(to bottom right,#14a9ff,#0088f0)!important;
+                                    background-color: rgb(255, 255, 255) !important;
                                     width: 97%;
                                     cursor: pointer;
                                     border: none;
                                     padding: 10px 20px;
                                     margin-top: 10px;					
                                     color: #fff;
-                                    border-radius: 5px;
+                                    border-radius: 5px !important;
+                                    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px !important;
                                 }
-                            }
-                            .google-login{
-                                display: block;
-                                outline: none;
-                                background-color: rgb(255, 255, 255) !important;
-                                width: 97%;
-                                cursor: pointer;
-                                border: none;
-                                padding: 10px 20px;
-                                margin-top: 10px;					
-                                color: #fff;
-                                border-radius: 5px !important;
-                                box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px !important;
-                            }
-                            .login{
-                                display: block;
-                                border: 1px solid rgb(55, 68, 255);
-                                outline: none;
-                                padding: 10px 20px;
-                                text-align: center;
-                                cursor: pointer;
-                                margin: 10px;
-                                margin-bottom: 0;
-                                margin-left: -3px;				
-                                color: rgb(55, 68, 255);
-                                border-radius: 5px;
-                                text-decoration: none;
+                                .login{
+                                    display: block;
+                                    border: 1px solid rgb(55, 68, 255);
+                                    outline: none;
+                                    padding: 10px 20px;
+                                    text-align: center;
+                                    cursor: pointer;
+                                    margin: 10px;
+                                    margin-bottom: 0;
+                                    margin-left: -3px;				
+                                    color: rgb(55, 68, 255);
+                                    border-radius: 5px;
+                                    text-decoration: none;
+                                }
                             }
                         }
                         .authRegImage{
