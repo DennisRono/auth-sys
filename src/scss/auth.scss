@@ -27,6 +27,43 @@ body{
                         .authRegForm{
                             width: 50%;
                             padding: 20px;
+                            h1{
+                                margin: 0;
+                                color: rgb(63, 63, 63);
+                            }
+                            p{
+                                margin: 0;
+                                color: rgb(63, 63, 63);
+                                margin-bottom: 10px;
+                            }
+                            .form{
+                                .submit-btn{
+                                    display: block;
+                                    outline: none;
+                                    background-color: rgb(55, 68, 255);
+                                    width: 97%;
+                                    cursor: pointer;
+                                    border: none;
+                                    padding: 10px 20px;
+                                    margin-top: 10px;					
+                                    color: #fff;
+                                    border-radius: 5px;
+                                }
+                            }
+                            .login{
+                                display: block;
+                                border: 1px solid rgb(55, 68, 255);
+                                outline: none;
+                                padding: 10px 20px;
+                                text-align: center;
+                                cursor: pointer;
+                                margin: 10px;
+                                margin-bottom: 0;
+                                margin-left: -3px;				
+                                color: rgb(55, 68, 255);
+                                border-radius: 5px;
+                                text-decoration: none;
+                            }
                         }
                         .authRegImage{
                             width: 50%;
@@ -81,65 +118,4 @@ background-color: rgb(255, 187, 187);
 border-left: 5px solid red;
 font-size: 14px;
 width: 88%;
-}
-.center{
-margin: 50px auto;
-margin-top: 20px;
-border-radius: 5px;
-width: 700px;
-background-color: rgb(240, 240, 240);
-overflow: hidden;
-box-shadow: rgba(0, 0, 0, 0.35) 3px 6px 6px;
-.center-flex{
-    display: flex;
-    flex-direction: row;
-    .preview-img{
-        width: 100%;
-        //background-image: url('../../../public/images/programming.jpg');
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-    .reg-form{
-        width: 100%;
-        padding: 10px;
-        padding-left: 40px;
-        h1{
-            margin: 0;
-            color: rgb(63, 63, 63);
-        }
-        p{
-            margin: 0;
-            color: rgb(63, 63, 63);
-            margin-bottom: 10px;
-        }
-        .form{
-            .submit-btn{
-                display: block;
-                outline: none;
-                background-color: rgb(55, 68, 255);
-                width: 97%;
-                cursor: pointer;
-                border: none;
-                padding: 10px 20px;
-                margin-top: 10px;					
-                color: #fff;
-                border-radius: 5px;
-            }
-        }
-        .login{
-            display: block;
-            border: 1px solid rgb(55, 68, 255);
-            outline: none;
-            padding: 10px 20px;
-            text-align: center;
-            cursor: pointer;
-            margin: 10px;
-            margin-bottom: 0;
-            margin-left: -3px;				
-            color: rgb(55, 68, 255);
-            border-radius: 5px;
-            text-decoration: none;
-        }
-    }
-}
 }

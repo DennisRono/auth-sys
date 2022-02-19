@@ -40,6 +40,45 @@ body {
   padding: 20px;
 }
 
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm h1 {
+  margin: 0;
+  color: #3f3f3f;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm p {
+  margin: 0;
+  color: #3f3f3f;
+  margin-bottom: 10px;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .form .submit-btn {
+  display: block;
+  outline: none;
+  background-color: #3744ff;
+  width: 97%;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login {
+  display: block;
+  border: 1px solid #3744ff;
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  cursor: pointer;
+  margin: 10px;
+  margin-bottom: 0;
+  margin-left: -3px;
+  color: #3744ff;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegImage {
   width: 50%;
   padding: 20px;
@@ -94,77 +133,5 @@ body {
   border-left: 5px solid red;
   font-size: 14px;
   width: 88%;
-}
-
-.center {
-  margin: 50px auto;
-  margin-top: 20px;
-  border-radius: 5px;
-  width: 700px;
-  background-color: #f0f0f0;
-  overflow: hidden;
-  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 3px 6px 6px;
-          box-shadow: rgba(0, 0, 0, 0.35) 3px 6px 6px;
-}
-
-.center .center-flex {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-}
-
-.center .center-flex .preview-img {
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.center .center-flex .reg-form {
-  width: 100%;
-  padding: 10px;
-  padding-left: 40px;
-}
-
-.center .center-flex .reg-form h1 {
-  margin: 0;
-  color: #3f3f3f;
-}
-
-.center .center-flex .reg-form p {
-  margin: 0;
-  color: #3f3f3f;
-  margin-bottom: 10px;
-}
-
-.center .center-flex .reg-form .form .submit-btn {
-  display: block;
-  outline: none;
-  background-color: #3744ff;
-  width: 97%;
-  cursor: pointer;
-  border: none;
-  padding: 10px 20px;
-  margin-top: 10px;
-  color: #fff;
-  border-radius: 5px;
-}
-
-.center .center-flex .reg-form .login {
-  display: block;
-  border: 1px solid #3744ff;
-  outline: none;
-  padding: 10px 20px;
-  text-align: center;
-  cursor: pointer;
-  margin: 10px;
-  margin-bottom: 0;
-  margin-left: -3px;
-  color: #3744ff;
-  border-radius: 5px;
-  text-decoration: none;
 }
 /*# sourceMappingURL=auth.css.map */
