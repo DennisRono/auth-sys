@@ -9,6 +9,10 @@ export class App extends Component {
     console.log(response.profileObj);
   }
 
+  showLogin = () => {
+
+  } 
+
   render() {
     return (
       <div>
@@ -21,7 +25,7 @@ export class App extends Component {
                     <div className="authRegForm">
                       <div className="authControls">
                         <div className="thecontrols">
-                          <button className="showregform">Register</button>
+                          <button className="showregform" onClick={()=>{showLogin()}}>Register</button>
                           <button className="showlogform">Login</button>
                         </div>
                       </div>
