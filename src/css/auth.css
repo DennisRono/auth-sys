@@ -1,3 +1,9 @@
+body {
+  padding: 0;
+  margin: 0;
+  border-style: border-box;
+}
+
 .authWrapper .authContainer .authFlex {
   position: relative;
   height: 100vh;
@@ -14,5 +20,7 @@
   min-height: 500px;
   background-color: white;
   border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+          box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 /*# sourceMappingURL=auth.css.map */

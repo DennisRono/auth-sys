@@ -1,3 +1,8 @@
+body{
+    padding: 0;
+    margin: 0;
+    border-style: border-box;
+}
 .authWrapper{
     .authContainer{
         .authFlex{
@@ -13,6 +18,7 @@
                 min-height: 500px;
                 background-color: rgb(255, 255, 255);
                 border-radius: 5px;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
             }
         }
     }
