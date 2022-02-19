@@ -23,4 +23,23 @@ body {
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm {
+  width: 50%;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegImage {
+  width: 50%;
+}
 /*# sourceMappingURL=auth.css.map */

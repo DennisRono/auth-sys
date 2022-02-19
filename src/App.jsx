@@ -21,7 +21,20 @@ export class App extends Component {
         <div className="authWrapper">
           <div className="authContainer">
             <div className="authFlex">
-              <div className="authPlay"></div>
+              <div className="authPlay">
+                <div className="authReg">
+                  <div className="authRegFlex">
+                    <div className="authRegForm">
+                      <h2>Sign Up</h2>
+                      <p>create an account with us</p>
+                      <form class="regForm">
+                        
+                      </form>
+                    </div>
+                    <div className="authRegImage"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
