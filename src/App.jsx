@@ -25,7 +25,7 @@ export class App extends Component {
                           <button className="showlogform">Login</button>
                         </div>
                       </div>
-                      <form className="form" autoComplete="off">
+                      <form className="reg-form" autoComplete="off">
                           <p className="err-box"></p>
                           <input type="hidden" autoComplete="new-password" name="hidden" />
                           <div className="user-input-wrp">

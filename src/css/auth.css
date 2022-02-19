@@ -25,6 +25,7 @@ body {
   border-radius: 5px;
   -webkit-box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
           box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding-bottom: 20px;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls {
@@ -70,7 +71,7 @@ body {
   padding: 20px;
 }
 
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .form .submit-btn {
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .reg-form .submit-btn {
   display: block;
   outline: none;
   background: -webkit-gradient(linear, left top, right bottom, from(#14a9ff), to(#0088f0)) !important;
