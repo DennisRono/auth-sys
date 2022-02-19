@@ -37,9 +37,11 @@ body {
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm {
   width: 50%;
+  padding: 20px;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegImage {
   width: 50%;
+  padding: 20px;
 }
 /*# sourceMappingURL=auth.css.map */
