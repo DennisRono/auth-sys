@@ -8,18 +8,16 @@ const App = () => {
     console.log(response);
     console.log(response.profileObj);
   }
-
-  const showLogin = () => {
+  const setActivity = (login) => {
     let regform = document.querySelector('.register')
     let logform = document.querySelector('.login')
-    regform.classList.add('hideregform');
-    logform.classList.remove('hidelogform');
-  }
-  const showRegister = () => {
-    let regform = document.querySelector('.register')
-    let logform = document.querySelector('.login')
-    regform.classList.remove('hideregform');
-    logform.classList.add('hidelogform');
+    if(login === "reg"){
+      regform.classList.remove('hideregform');
+      logform.classList.add('hidelogform');
+    } else if(login === "log"){
+      regform.classList.add('hideregform');
+      logform.classList.remove('hidelogform');
+    }
   }
   return (
     <div>
