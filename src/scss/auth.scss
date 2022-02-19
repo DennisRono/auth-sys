@@ -21,6 +21,19 @@ body{
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 .authControls{
                     height: 40px;
+                    width: 100%;
+                    position: relative;
+                    .thecontrols{
+                        position: absolute;
+                        left: 50%;
+                        transform: translate(0, -50%);
+                        .showregform{
+
+                        }
+                        .showlogform{
+
+                        }
+                    }
                 }
                 .authReg{
                     .authRegFlex{

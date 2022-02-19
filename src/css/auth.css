@@ -26,6 +26,15 @@ body {
 
 .authWrapper .authContainer .authFlex .authPlay .authControls {
   height: 40px;
+  width: 100%;
+  position: relative;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex {
