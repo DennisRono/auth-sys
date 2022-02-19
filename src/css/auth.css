@@ -114,6 +114,8 @@ body {
   -webkit-box-shadow: none !important;
           box-shadow: none !important;
   background-color: #fff;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .user-input-wrp .inputText:focus,

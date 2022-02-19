@@ -95,13 +95,15 @@ width: 90%;
 margin-top: 5px;
 }
 .user-input-wrp .inputText{
-width: 100%;
-outline: none;
-border: none;
-border-bottom: 1px solid rgb(211, 211, 211);
-padding: 7px 10px;
-box-shadow: none !important;
-background-color: #fff;
+    width: 100%;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    padding: 7px 10px;
+    box-shadow: none !important;
+    background-color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 .user-input-wrp .inputText:focus,
 .user-input-wrp .inputText:not(:focus):valid{
