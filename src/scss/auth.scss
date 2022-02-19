@@ -22,16 +22,18 @@ body{
                 .authControls{
                     height: 40px;
                     width: 100%;
-                    position: relative;
                     .thecontrols{
-                        position: absolute;
-                        left: 50%;
-                        transform: translate(-50%, 0);
                         .showregform{
-                            margin: 0 10px;
+                            width: 50%;
+                            background-color: rgb(255, 144, 144);
+                            border: none;
+                            outline: none;
                         }
                         .showlogform{
-                            margin: 0 10px;
+                            width: 50%;
+                            background-color: rgb(255, 144, 144);
+                            border: none;
+                            outline: none;
                         }
                     }
                 }

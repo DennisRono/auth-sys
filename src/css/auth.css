@@ -27,22 +27,20 @@ body {
 .authWrapper .authContainer .authFlex .authPlay .authControls {
   height: 40px;
   width: 100%;
-  position: relative;
-}
-
-.authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols {
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translate(-50%, 0);
-          transform: translate(-50%, 0);
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showregform {
-  margin: 0 10px;
+  width: 50%;
+  background-color: #ff9090;
+  border: none;
+  outline: none;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showlogform {
-  margin: 0 10px;
+  width: 50%;
+  background-color: #ff9090;
+  border: none;
+  outline: none;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex {
