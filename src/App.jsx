@@ -10,7 +10,7 @@ const App = () => {
   }
 
   const showLogin = () => {
-    
+    let regform = document.querySelector('.reg-form')
   }
   return (
     <div>
@@ -27,6 +27,7 @@ const App = () => {
                         <button className="showlogform">Login</button>
                       </div>
                     </div>
+                    <div className="register">
                     <form className="reg-form" autoComplete="off">
                         <p className="err-box"></p>
                         <input type="hidden" autoComplete="new-password" name="hidden" />
@@ -66,6 +67,7 @@ const App = () => {
                       onFailure={responseGoogle}
                       cookiePolicy={'single_host_origin'}
                     />
+                    </div>
                   </div>
                   <div className="authRegImage"></div>
                 </div>
