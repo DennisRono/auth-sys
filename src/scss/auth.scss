@@ -50,6 +50,19 @@ body{
                                     border-radius: 5px;
                                 }
                             }
+                            .google-login{
+                                display: block;
+                                outline: none;
+                                background-color: rgb(241, 241, 241) !important;
+                                width: 97%;
+                                cursor: pointer;
+                                border: none;
+                                padding: 10px 20px;
+                                margin-top: 10px;					
+                                color: #fff;
+                                border-radius: 5px !important;
+                                box-shadow: none !important;
+                            }
                             .login{
                                 display: block;
                                 border: 1px solid rgb(55, 68, 255);

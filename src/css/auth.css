@@ -64,6 +64,21 @@ body {
   border-radius: 5px;
 }
 
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .google-login {
+  display: block;
+  outline: none;
+  background-color: #f1f1f1 !important;
+  width: 97%;
+  cursor: pointer;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  color: #fff;
+  border-radius: 5px !important;
+  -webkit-box-shadow: none !important;
+          box-shadow: none !important;
+}
+
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login {
   display: block;
   border: 1px solid #3744ff;

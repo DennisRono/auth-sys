@@ -53,6 +53,7 @@ export class App extends Component {
                           <input type="submit" className="submit-btn" value="Register" name="submit"/>
                       </form>
                       <GoogleLogin
+                        className="google-login"
                         clientId="19488264174-ph00unj3grek6shl3sq5euc9ru0fq2l0.apps.googleusercontent.com"
                         buttonText="Login with Google"
                         onSuccess={this.responseGoogle}
