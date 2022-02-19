@@ -25,8 +25,6 @@ export class App extends Component {
                 <div className="authReg">
                   <div className="authRegFlex">
                     <div className="authRegForm">
-                      <h1>Register</h1>
-                      <p>Create an account with us</p>
                       <form className="form" autoComplete="off">
                           <p className="err-box"></p>
                           <input type="hidden" autoComplete="new-password" name="hidden" />
