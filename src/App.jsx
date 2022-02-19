@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 //import GoogleLogin from 'react-google-login'
-import './auth.css'
+import './css/auth.css'
 
 export class App extends Component {
 

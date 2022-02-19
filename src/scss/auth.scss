@@ -1,0 +1,19 @@
+.authWrapper{
+    .authContainer{
+        .authFlex{
+            position: relative;
+            height: 100vh;
+            background-color: #f8f8f8;
+            .authPlay{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 60%;
+                min-height: 500px;
+                background-color: rgb(255, 255, 255);
+                border-radius: 5px;
+            }
+        }
+    }
+}
