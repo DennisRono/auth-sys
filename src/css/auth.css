@@ -27,20 +27,24 @@ body {
 .authWrapper .authContainer .authFlex .authPlay .authControls {
   height: 40px;
   width: 100%;
+  margin-bottom: 40px !important;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showregform {
   width: 50%;
-  background-color: #ff9090;
+  background-color: transparent;
   border: none;
   outline: none;
+  font-size: 30px;
+  border-bottom: 5px solid cyan;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showlogform {
   width: 50%;
-  background-color: #ff9090;
+  background-color: transparent;
   border: none;
   outline: none;
+  font-size: 30px;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex {
