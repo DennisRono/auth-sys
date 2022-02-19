@@ -6,7 +6,7 @@
 .pnp.js
 cron-ping.js
 cron-delete.js
-cron-logs.js
+cron-logs.json
 .env
 
 # testing
