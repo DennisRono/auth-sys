@@ -13,7 +13,7 @@ const App = () => {
     let regform = document.querySelector('.register')
     let logform = document.querySelector('.login')
     regform.classList.add('hideregform');
-    logform.classList.add('hideregform');
+    logform.classList.add('hidelogform');
   }
   const showRegister = () => {
     let logform = document.querySelector('.login')
