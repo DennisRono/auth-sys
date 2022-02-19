@@ -12,6 +12,14 @@ const App = () => {
   const showLogin = () => {
     let regform = document.querySelector('.register')
     regform.style.display="none";
+    let logform = document.querySelector('.login')
+    logform.style.display="unset";
+  }
+  const showRegister = () => {
+    let logform = document.querySelector('.login')
+    logform.style.display="none";
+    let regform = document.querySelector('.register')
+    regform.style.display="unset";
   }
   return (
     <div>
@@ -24,7 +32,7 @@ const App = () => {
                   <div className="authRegForm">
                     <div className="authControls">
                       <div className="thecontrols">
-                        <button className="showregform">Register</button>
+                        <button className="showregform" onClick={()=>{showRegister()}}>Register</button>
                         <button className="showlogform" onClick={()=>{showLogin()}}>Login</button>
                       </div>
                     </div>

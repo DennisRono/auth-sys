@@ -100,6 +100,10 @@ body{
                                     text-decoration: none;
                                 }
                             }
+                            .login{
+                                display: none;
+                                transition: 0.3s;
+                            }
                         }
                         .authRegImage{
                             width: 50%;
