@@ -213,4 +213,19 @@ body {
 .hidelogform {
   display: none;
 }
+
+@media (max-width: 1000px) {
+  .authRegImage {
+    display: none;
+  }
+  .authRegForm {
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .authPlay {
+    width: 90% !important;
+  }
+}
 /*# sourceMappingURL=auth.css.map */
