@@ -7,6 +7,7 @@
 cron-ping.js
 cron-delete.js
 cron-logs.json
+deno.json
 .env
 
 # testing
@@ -24,4 +25,6 @@ cron-logs.json
 
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
+yarn-error.log*testing.json
+testinsdfg.json
+deno.json

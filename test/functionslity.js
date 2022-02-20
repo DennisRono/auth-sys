@@ -8,7 +8,7 @@ let config = {
     size: 2
 }
 
-  //get today's time
+//get today's time
 const getTime = () => {
     return new Date(Date.now()).toLocaleString("en-US", { timeZone: "Africa/Nairobi" });
   }
