@@ -81,17 +81,6 @@ const App = () => {
                           <input type="hidden" autoComplete="new-password" name="hidden" />
                           <div className="user-input-wrp">
                               <br/>
-                              <input type="text" className="inputText" name="fullname" required/>
-                              <span className="floating-label">Full Name</span>
-                          </div>
-                          <div className="user-input-wrp">
-                              <br/>
-                              <input id="id-input" type="text" className="inputText" name="phoneno"   required/>
-                              <span className="floating-label">Phone number (optional)</span>
-                          </div>
-                          <span id="id-err"></span>
-                          <div className="user-input-wrp">
-                              <br/>
                               <input type="email" className="inputText" name="email"   required/>
                               <span className="floating-label">Email Address</span>
                           </div>
@@ -100,11 +89,6 @@ const App = () => {
                               <input type="password" className="inputText" name="password" required/>
                               <span className="floating-label">Password</span>
                           </div>
-                          <div className="user-input-wrp">
-                              <br/>
-                              <input type="password" className="inputText" name="cpassword" required/>
-                              <span className="floating-label">Confirm Password</span>
-                          </div><br/>
                           <input type="submit" className="submit-btn" value="Register" name="submit"/>
                       </form>
                       <GoogleLogin

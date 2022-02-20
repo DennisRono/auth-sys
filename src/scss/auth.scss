@@ -58,6 +58,7 @@ body{
                             width: 50%;
                             padding: 20px;
                             .register, .login{
+                                transition: 0.3s;
                                 .reg-form{
                                     transition: 0.3s;
                                     .submit-btn{
