@@ -38,7 +38,7 @@ body {
   background-color: transparent;
   border: none;
   outline: none;
-  font-size: 30px;
+  font-size: 22px;
   color: #fff;
   padding: 10px;
   border-bottom: 3px solid cyan;
@@ -52,7 +52,7 @@ body {
   outline: none;
   color: #fff;
   padding: 10px;
-  font-size: 30px;
+  font-size: 22px;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showregform:hover, .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showlogform:hover {
