@@ -81,7 +81,7 @@ const App = () => {
                         cookiePolicy={'single_host_origin'}
                       />
                     </div>
-                    <div className="login"><br/>
+                    <div className="login"><br/><br/>
                       <form className="reg-form" autoComplete="off">
                           <p className="err-box"></p>
                           <input type="hidden" autoComplete="new-password" name="hidden" />
