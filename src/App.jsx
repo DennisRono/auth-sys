@@ -69,13 +69,13 @@ const App = () => {
                       <GoogleLogin
                         className="google-login"
                         clientId="19488264174-ph00unj3grek6shl3sq5euc9ru0fq2l0.apps.googleusercontent.com"
-                        buttonText="Login with Google"
+                        buttonText="Register with Google"
                         onSuccess={responseGoogle}
                         onFailure={responseGoogle}
                         cookiePolicy={'single_host_origin'}
                       />
                     </div>
-                    <div className="login">
+                    <div className="login"><br/>
                       <form className="reg-form" autoComplete="off">
                           <p className="err-box"></p>
                           <input type="hidden" autoComplete="new-password" name="hidden" />
@@ -83,14 +83,14 @@ const App = () => {
                               <br/>
                               <input type="email" className="inputText" name="email"   required/>
                               <span className="floating-label">Email Address</span>
-                          </div>
+                          </div><br/>
                           <div className="user-input-wrp"style={{ marginBottom: "5px !important" }} >
                               <br/>
                               <input type="password" className="inputText" name="password" required/>
                               <span className="floating-label">Password</span>
-                          </div>
-                          <input type="submit" className="submit-btn" value="Register" name="submit"/>
-                      </form>
+                          </div><br/><br/>
+                          <input type="submit" className="submit-btn" value="Login" name="submit"/>
+                      </form><br/>
                       <GoogleLogin
                         className="google-login"
                         clientId="19488264174-ph00unj3grek6shl3sq5euc9ru0fq2l0.apps.googleusercontent.com"
