@@ -107,7 +107,9 @@ const App = () => {
                       />
                     </div>
                   </div>
-                  <div className="authRegImage"></div>
+                  <div className="authRegImage">
+                    <img src={`./illustrations/reg-ill.jpg`} alt="" />
+                  </div>
                 </div>
               </div>
             </div>

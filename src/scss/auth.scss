@@ -114,6 +114,13 @@ body{
                         .authRegImage{
                             width: 50%;
                             padding: 20px;
+                            overflow: hidden !important;
+                            img{
+                                width: 100%;
+                                height: 400px;
+                                display: inline-flex;
+                                align-items: center;
+                            }
                         }
                     }
                 }
