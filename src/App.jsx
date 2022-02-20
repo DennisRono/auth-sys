@@ -11,12 +11,18 @@ const App = () => {
   const setActivity = (login) => {
     let regform = document.querySelector('.register')
     let logform = document.querySelector('.login')
+    let regbutton = document.querySelector('.showregform')
+    let logbutton = document.querySelector('.showlogform')
     if(login === "reg"){
       regform.style.display="unset";
       logform.style.display="none";
+      regbutton.style.borderBottom="3px solid cyan";
+      logbutton.style.borderBottom="none";
     } else if(login === "log"){
       regform.style.display="none";
       logform.style.display="unset";
+      regbutton.style.borderBottom="none";
+      logbutton.style.borderBottom="3px solid cyan";
     }
   }
   return (
