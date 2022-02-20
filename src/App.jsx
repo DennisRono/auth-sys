@@ -100,7 +100,7 @@ const App = () => {
                       <GoogleLogin
                         className="google-login"
                         clientId="19488264174-ph00unj3grek6shl3sq5euc9ru0fq2l0.apps.googleusercontent.com"
-                        buttonText="Register with Google"
+                        buttonText="Sign up using Google"
                         onSuccess={responseGoogle}
                         onFailure={responseGoogle}
                         cookiePolicy={'single_host_origin'}
