@@ -4,6 +4,10 @@ import './css/auth.css'
 
 const App = () => {
   const [login, setLogin] = useState('reg');
+  const [fullname, setFullName] = useState('');
+  const [phone, setPhone]= useState('');
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('')
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
