@@ -140,17 +140,17 @@ body {
   width: 50%;
   padding: 20px;
   overflow: hidden !important;
+  position: relative;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegImage img {
   width: 100%;
-  height: 400px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  height: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .user-input-wrp {
