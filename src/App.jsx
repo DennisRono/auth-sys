@@ -106,7 +106,7 @@ const App = () => {
                           <input type="hidden" autoComplete="new-password" name="hidden" />
                           <div className="user-input-wrp">
                               <br/>
-                              <input type="email" className="inputText" name="email"   required/>
+                              <input value={logData.email} onChange={(e)=>{setLogData({...logData, email: e.target.value})}} type="email" className="inputText" name="email"   required/>
                               <span className="floating-label">Email Address</span>
                           </div><br/>
                           <div className="user-input-wrp"style={{ marginBottom: "5px !important" }} >
