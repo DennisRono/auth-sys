@@ -23,6 +23,12 @@ const App = () => {
     console.log(regData)
 
   }
+  //handle registration submit
+  const handlelogSubmit = (e) => {
+    e.preventDefault()
+    console.log(logData)
+
+  }
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
@@ -111,7 +117,7 @@ const App = () => {
                           </div><br/>
                           <div className="user-input-wrp"style={{ marginBottom: "5px !important" }} >
                               <br/>
-                              <input type="password" className="inputText" name="password" required/>
+                              <input value={logData.password} onChange={(e)=>{setLogData({...logData, password: e.target.value})}} type="password" className="inputText" name="password" required/>
                               <span className="floating-label">Password</span>
                           </div><br/><br/>
                           <input type="submit" className="submit-btn" value="Login" name="submit"/>
