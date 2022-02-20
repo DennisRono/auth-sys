@@ -71,12 +71,12 @@ body {
   padding: 20px;
 }
 
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .reg-form {
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .reg-form, .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login .reg-form {
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .reg-form .submit-btn {
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .reg-form .submit-btn, .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login .reg-form .submit-btn {
   display: block;
   outline: none;
   background: -webkit-gradient(linear, left top, right bottom, from(#14a9ff), to(#0088f0)) !important;
@@ -90,7 +90,7 @@ body {
   border-radius: 5px;
 }
 
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .google-login {
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .google-login, .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login .google-login {
   display: block;
   outline: none;
   background-color: white !important;
@@ -105,7 +105,7 @@ body {
           box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 4px !important;
 }
 
-.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .login {
+.authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .register .login, .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login .login {
   display: block;
   border: 1px solid #3744ff;
   outline: none;
