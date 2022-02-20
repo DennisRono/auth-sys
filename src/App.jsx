@@ -7,7 +7,8 @@ const App = () => {
   const [fullname, setFullName] = useState('');
   const [phone, setPhone]= useState('');
   const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('')
+  const [password, setPassword] = useState('');
+  const [cpassword, setCpassword] = useState('');
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
