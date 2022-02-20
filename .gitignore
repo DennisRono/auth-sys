@@ -25,6 +25,4 @@ deno.json
 
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*testing.json
-testinsdfg.json
-deno.json
+yarn-error.log*
