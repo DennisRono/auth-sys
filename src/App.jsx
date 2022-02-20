@@ -12,11 +12,11 @@ const App = () => {
     let regform = document.querySelector('.register')
     let logform = document.querySelector('.login')
     if(login === "reg"){
-      regform.classList.remove('hideregform');
-      logform.classList.add('hidelogform');
+      regform.style.display="unset";
+      logform.style.display="none";
     } else if(login === "log"){
-      regform.classList.add('hideregform');
-      logform.classList.remove('hidelogform');
+      regform.style.display="none";
+      logform.style.display="unset";
     }
   }
   return (

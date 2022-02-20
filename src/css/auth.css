@@ -121,6 +121,7 @@ body {
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex .authRegForm .login {
+  display: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
