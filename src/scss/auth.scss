@@ -29,7 +29,7 @@ body{
                     margin-bottom: 40px !important;
                     .thecontrols{
                         .showregform{
-                            width: 50%;
+                            width: 48%;
                             background-color: transparent;
                             border: none;
                             outline: none;
@@ -37,6 +37,7 @@ body{
                             color: #fff;
                             padding: 10px;
                             border-bottom: 3px solid cyan;
+                            margin-right: 5px;
                         }
                         .showlogform{
                             width: 50%;
@@ -46,6 +47,9 @@ body{
                             color: #fff;
                             padding: 10px;
                             font-size: 30px;
+                        }
+                        .showregform:hover, .showlogform:hover{
+                            background-color: rgba(255, 255, 255, 0.096);
                         }
                     }
                 }

@@ -35,7 +35,7 @@ body {
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showregform {
-  width: 50%;
+  width: 48%;
   background-color: transparent;
   border: none;
   outline: none;
@@ -43,6 +43,7 @@ body {
   color: #fff;
   padding: 10px;
   border-bottom: 3px solid cyan;
+  margin-right: 5px;
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showlogform {
@@ -53,6 +54,10 @@ body {
   color: #fff;
   padding: 10px;
   font-size: 30px;
+}
+
+.authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showregform:hover, .authWrapper .authContainer .authFlex .authPlay .authControls .thecontrols .showlogform:hover {
+  background-color: rgba(255, 255, 255, 0.096);
 }
 
 .authWrapper .authContainer .authFlex .authPlay .authReg .authRegFlex {
