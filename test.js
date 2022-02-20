@@ -1,36 +1,14 @@
-let fs = require('fs');
-const Format = require('json-format');
-let filename = 'testinsdfg.json';
+import React from 'react'
 
-//formatter config
-let config = {
-    type: 'space',
-    size: 2
+const test = () => {
+  return (
+    <div>
+      <label htmlFor="title">Title</label>
+      <input onChange​={(e) => setFormData({...formData, title: e.target.value})} value={formData.title} type="text" name="title" id="title" />
+      <label htmlFor="body">Body</label>
+      <textarea onChange​={(e) => setFormData({...formData, body: e.target.value})}  value={formData.body} name="body" id="body"></textarea>
+    </div>
+  )
 }
 
-function checkFileExistsSync(filepath){
-    let flag = true;
-    try{
-      fs.accessSync(filepath, fs.constants.F_OK);
-    }catch(e){
-      flag = false;
-    }
-    return flag;
-}
-
-if(!checkFileExistsSync(filename)){
-    fs.open(filename, 'w', function (err) {
-        if (err){
-            throw err;
-        } else {
-            console.log('Created file: '+filename);
-            fs.writeFileSync(filename, Format({}, config));
-            //add logfile to gitignore
-            fs.appendFile('.gitignore', filename+'\n', function (err) {
-              if (err) throw err;
-            });
-        }
-    });
-  }else{
-    console.log("exists");
-}
+export default test

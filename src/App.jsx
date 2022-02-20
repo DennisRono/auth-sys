@@ -3,12 +3,26 @@ import GoogleLogin from 'react-google-login'
 import './css/auth.css'
 
 const App = () => {
-  const [login, setLogin] = useState('reg');
-  const [fullname, setFullName] = useState('');
-  const [phone, setPhone]= useState('');
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [cpassword, setCpassword] = useState('');
+  //register states
+  const [regData, setRegData] = useState({
+    fullname: "",
+    phone: "",
+    email: "",
+    password: "",
+    cpassword: ""
+  });
+  //loginstates
+  const [logData, setLogData] = useState({
+    email: "",
+    password: ""
+  });
+
+  //handle registration submit
+  const handleregSubmit = (e) => {
+    e.preventDefault()
+    console.log(regData)
+
+  }
   const responseGoogle = (response) => {
     console.log(response);
     console.log(response.profileObj);
@@ -46,33 +60,33 @@ const App = () => {
                       </div>
                     </div>
                     <div className="register">
-                      <form className="reg-form" autoComplete="off">
+                      <form className="reg-form" autoComplete="off" onSubmit={handleregSubmit}>
                           <p className="err-box"></p>
                           <input type="hidden" autoComplete="new-password" name="hidden" />
                           <div className="user-input-wrp">
                               <br/>
-                              <input type="text" className="inputText" name="fullname" required/>
-                              <span className="floating-label">Full Name</span>
+                              <input value={regData.fullname} onChange={(e)=>{setRegData({...regData, fullname: e.target.value})}} type="text" className="inputText" name="fullname" required/>
+                              <span htmlFor="FullName" className="floating-label">Full Name</span>
                           </div>
                           <div className="user-input-wrp">
                               <br/>
-                              <input id="id-input" type="text" className="inputText" name="phoneno"   required/>
+                              <input value={regData.phone} onChange={(e)=>{setRegData({...regData, phone: e.target.value})}} id="id-input" type="text" className="inputText" name="phoneno"   required/>
                               <span className="floating-label">Phone number (optional)</span>
                           </div>
                           <span id="id-err"></span>
                           <div className="user-input-wrp">
                               <br/>
-                              <input type="email" className="inputText" name="email"   required/>
+                              <input value={regData.email} onChange={(e)=>{setRegData({...regData, email: e.target.value})}} type="email" className="inputText" name="email"   required/>
                               <span className="floating-label">Email Address</span>
                           </div>
                           <div className="user-input-wrp"style={{ marginBottom: "5px !important" }} >
                               <br/>
-                              <input type="password" className="inputText" name="password" required/>
+                              <input value={regData.password} onChange={(e)=>{setRegData({...regData, password: e.target.value})}} type="password" className="inputText" name="password" required/>
                               <span className="floating-label">Password</span>
                           </div>
                           <div className="user-input-wrp">
                               <br/>
-                              <input type="password" className="inputText" name="cpassword" required/>
+                              <input value={regData.cpassword} onChange={(e)=>{setRegData({...regData, cpassword: e.target.value})}} type="password" className="inputText" name="cpassword" required/>
                               <span className="floating-label">Confirm Password</span>
                           </div><br/>
                           <input type="submit" className="submit-btn" value="Register" name="submit"/>
@@ -87,7 +101,7 @@ const App = () => {
                       />
                     </div>
                     <div className="login"><br/><br/>
-                      <form className="reg-form" autoComplete="off">
+                      <form className="reg-form" autoComplete="off" onSubmit={handlelogSubmit}>
                           <p className="err-box"></p>
                           <input type="hidden" autoComplete="new-password" name="hidden" />
                           <div className="user-input-wrp">
